@@ -5,5 +5,4 @@
 [![codecov](https://codecov.io/gh/rikopernando/ci-and-codecoverage/branch/master/graph/badge.svg)](https://codecov.io/gh/rikopernando/ci-and-codecoverage)
 
 
-
 Sample continous integration and code coverage
