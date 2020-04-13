@@ -6,7 +6,8 @@
   "scripts": {
     "start": "parcel index.html",
     "test": "jest",
-    "test:watch": "jest --watchAll"
+    "test:watch": "jest --watchAll",
+    "test:coverage": "npm test -- --coverage"
   },
   "keywords": [],
   "author": "Riko Pernando",
