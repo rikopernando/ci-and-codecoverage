@@ -105,14 +105,17 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   // Override the current require with this new one
   return newRequire;
 })({"src/helpers.js":[function(require,module,exports) {
+// incrementQty
 var incrementQty = function incrementQty(qty) {
   return parseInt(qty) + 1;
-};
+}; // decrementQty
+
 
 var decrementQty = function decrementQty(qty) {
   if (qty > 1) return qty - 1;
   return 1;
-};
+}; // recalculateSubtotal
+
 
 var recalculateSubtotal = function recalculateSubtotal(price, qty) {
   var discount = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 0;
