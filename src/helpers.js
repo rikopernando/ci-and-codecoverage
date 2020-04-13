@@ -1,4 +1,4 @@
-const incrementQty = (qty) => parseInt(qty) + 1;
+const incrementQty = (qty) => parseInt(qty) - 1;
 
 const decrementQty = (qty) => {
   if (qty > 1) return qty - 1
